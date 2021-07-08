@@ -10,4 +10,11 @@ class Curve {
   Point<double> handle2;
   // end points
   Point<double> point2;
+
+  /// Multiplication operator.
+  Curve operator *(double operand) => Curve(point1 * operand, handle1 * operand, handle2 * operand, point2 * operand);
+
+  /// Division operator.
+  Curve operator /(double operand) => Curve(point1 * operand, handle1 * operand, handle2 * operand, point2 * operand);
+
 }
