@@ -1,4 +1,4 @@
 library fit_curve;
 
-export 'src/curve.dart';
+export 'package:curve/curve.dart';
 export 'src/fit_curve.dart';

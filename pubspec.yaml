@@ -1,12 +1,13 @@
 name: fit_curve
 description: Dart implementation of Philip J. Schneider's \"Algorithm for Automatically Fitting Digitized Curves\" from the book \"Graphics Gems\"
-version: 1.0.2
+version: 1.0.3
 repository: https://github.com/bjartebore/fit_curve
 
 environment:
   sdk: '>=2.13.0 <3.0.0'
 
 dependencies:
+  curve: ^1.0.0
 
 dev_dependencies:
   lints: ^1.0.1

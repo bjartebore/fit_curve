@@ -12,7 +12,8 @@
 
 import 'dart:math';
 
-import 'curve.dart';
+import 'package:curve/curve.dart';
+
 import 'list_utils.dart';
 
 typedef Points = List<Point<double>>;
